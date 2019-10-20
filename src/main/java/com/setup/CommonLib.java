@@ -45,12 +45,12 @@ public class CommonLib {
 		options.setExperimentalOption("prefs", prefs);
 		switch (num){
 		case 1:
-		 System.setProperty("webdriver.chrome.driver","C:\\Users\\shubhman\\eclipse-workspace\\SeleniumChallengeCPSAT\\Exes\\chromedriver.exe");  
+		 System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\Exes\\chromedriver.exe");  
          oDriver=new ChromeDriver(options);
          break;
          
 		case 2:
-			System.setProperty("webdriver.firefox.marionette","C:\\Users\\shubhman\\eclipse-workspace\\SeleniumChallengeCPSAT\\Exes\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\Exes\\geckodriver.exe");
 			oDriver=new FirefoxDriver();
 			break;
 		case 3:

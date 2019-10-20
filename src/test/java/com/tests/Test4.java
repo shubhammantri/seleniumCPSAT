@@ -51,7 +51,7 @@ public class Test4 {
 
 				// set ExperimentalOption - prefs 
 				options.setExperimentalOption("prefs", prefs);
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\shubhman\\eclipse-workspace\\SeleniumChallengeCPSAT\\Exes\\chromedriver.exe");  
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\Exes\\chromedriver.exe");  
         oDriver=new ChromeDriver(options);
         oDriver.manage().window().maximize();
 		
@@ -76,8 +76,8 @@ public class Test4 {
 	assertTrue(true);
 
 	}
-//	@AfterClass
-//	public static void after() {
-//		oDriver.quit();	
-//		}
+	@AfterClass
+	public static void after() {
+		oDriver.quit();	
+		}
 }

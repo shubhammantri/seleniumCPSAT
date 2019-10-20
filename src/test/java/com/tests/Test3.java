@@ -34,11 +34,11 @@ public class Test3 {
 	@BeforeClass
 	public static void before() throws InterruptedException {
 		// Initialise Driver
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\shubhman\\eclipse-workspace\\SeleniumChallengeCPSAT\\Exes\\chromedriver.exe");  
-        oDriver=new ChromeDriver();
-		
+		//System.setProperty("webdriver.chrome.driver","C:\\Users\\shubhman\\eclipse-workspace\\SeleniumChallengeCPSAT\\Exes\\chromedriver.exe");  
+    //    oDriver=new ChromeDriver();
+		System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\Exes\\geckodriver.exe"); 
 		//System.setProperty("webdriver.gecko.driver","C:\\Users\\shubhman\\eclipse-workspace\\SeleniumChallengeCPSAT\\Exes\\geckodriver.exe");
-		//oDriver = new FirefoxDriver();
+		oDriver = new FirefoxDriver();
         
 		oDriver.get("https://www.premierleague.com/");
 		Thread.sleep(1500);

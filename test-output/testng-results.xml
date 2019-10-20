@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="49714" started-at="2019-10-20T14:00:05Z" finished-at="2019-10-20T14:00:55Z">
+  <suite name="Suite" duration-ms="55406" started-at="2019-10-20T17:48:14Z" finished-at="2019-10-20T17:49:10Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="14950" started-at="2019-10-20T14:00:05Z" finished-at="2019-10-20T14:00:20Z">
+    <test name="Test1" duration-ms="20681" started-at="2019-10-20T17:48:14Z" finished-at="2019-10-20T17:48:35Z">
       <class name="com.tests.Test1">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:com.tests.Test1@70a3d8]" name="before" is-config="true" duration-ms="5077" started-at="2019-10-20T14:00:05Z" finished-at="2019-10-20T14:00:10Z">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:com.tests.Test1@70a3d8]" name="before" is-config="true" duration-ms="5544" started-at="2019-10-20T17:48:14Z" finished-at="2019-10-20T17:48:20Z">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="validation()[pri:0, instance:com.tests.Test1@70a3d8]" name="validation" duration-ms="8994" started-at="2019-10-20T14:00:10Z" finished-at="2019-10-20T14:00:19Z">
+        <test-method status="PASS" signature="validation()[pri:0, instance:com.tests.Test1@70a3d8]" name="validation" duration-ms="14253" started-at="2019-10-20T17:48:20Z" finished-at="2019-10-20T17:48:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validation -->
-        <test-method status="PASS" signature="After()[pri:0, instance:com.tests.Test1@70a3d8]" name="After" is-config="true" duration-ms="858" started-at="2019-10-20T14:00:19Z" finished-at="2019-10-20T14:00:20Z">
+        <test-method status="PASS" signature="After()[pri:0, instance:com.tests.Test1@70a3d8]" name="After" is-config="true" duration-ms="859" started-at="2019-10-20T17:48:34Z" finished-at="2019-10-20T17:48:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- After -->
       </class> <!-- com.tests.Test1 -->
     </test> <!-- Test1 -->
-    <test name="Test6" duration-ms="34733" started-at="2019-10-20T14:00:20Z" finished-at="2019-10-20T14:00:55Z">
+    <test name="Test6" duration-ms="34670" started-at="2019-10-20T17:48:35Z" finished-at="2019-10-20T17:49:10Z">
       <class name="com.tests.Test6">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:com.tests.Test6@6007f4]" name="before" is-config="true" duration-ms="3682" started-at="2019-10-20T14:00:20Z" finished-at="2019-10-20T14:00:24Z">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:com.tests.Test6@6007f4]" name="before" is-config="true" duration-ms="4412" started-at="2019-10-20T17:48:35Z" finished-at="2019-10-20T17:48:39Z">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="validation()[pri:0, instance:com.tests.Test6@6007f4]" name="validation" duration-ms="30042" started-at="2019-10-20T14:00:24Z" finished-at="2019-10-20T14:00:54Z">
+        <test-method status="PASS" signature="validation()[pri:0, instance:com.tests.Test6@6007f4]" name="validation" duration-ms="29249" started-at="2019-10-20T17:48:39Z" finished-at="2019-10-20T17:49:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validation -->
-        <test-method status="PASS" signature="After()[pri:0, instance:com.tests.Test6@6007f4]" name="After" is-config="true" duration-ms="1008" started-at="2019-10-20T14:00:54Z" finished-at="2019-10-20T14:00:55Z">
+        <test-method status="PASS" signature="After()[pri:0, instance:com.tests.Test6@6007f4]" name="After" is-config="true" duration-ms="1002" started-at="2019-10-20T17:49:09Z" finished-at="2019-10-20T17:49:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- After -->

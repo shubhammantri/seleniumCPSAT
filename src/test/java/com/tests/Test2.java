@@ -1,5 +1,6 @@
 package com.tests;
 
+import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -32,7 +33,7 @@ public class Test2 {
 	@BeforeClass
 	public static void before() {
 		// Initialise Driver
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\shubhman\\eclipse-workspace\\SeleniumChallengeCPSAT\\Exes\\chromedriver.exe");  
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\Exes\\chromedriver.exe");  
         oDriver=new ChromeDriver();
 		
 //		System.setProperty("webdriver.gecko.driver","C:\\Users\\shubhman\\eclipse-workspace\\SeleniumChallengeCPSAT\\Exes\\geckodriver.exe");
@@ -54,5 +55,9 @@ public class Test2 {
 		TestPage.printAllTitleOptions();	
 	assertTrue(true);
 
+	}
+	@AfterClass
+	public void after() {
+		oDriver.quit();
 	}
 }
